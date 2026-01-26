@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
             // State to hold the error message
-            val errorMessage = rememberSaveable { mutableStateOf("") }
+            val errorMessage = remember{ mutableStateOf("") }
 
             NavHost(
                 navController = navController,
