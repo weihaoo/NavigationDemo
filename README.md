@@ -1,6 +1,6 @@
 # NavigationDemo
 
-A demo app that explores a Jetpack Compose Navigation question from a mobile module i am currently taking. It demonstrates what actually happens when you navigate to `"details_screen"` while the registered composable route is `"details_screen/{name}"`.
+A demo app that explores a Jetpack Compose Navigation question from a mobile programming module i am currently taking. It demonstrates what actually happens when you navigate to `"details_screen"` while the registered composable route is `"details_screen/{name}"`.
 
 **TLDR:** It crashes with an `IllegalArgumentException` because the routes don't match.
 
